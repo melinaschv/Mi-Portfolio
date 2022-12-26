@@ -1,0 +1,54 @@
+* { box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    color: brown;
+    font-size: medium;
+    font-family: 'Sevillana', cursive;
+}
+
+article {
+    color: brown;
+    font-size: medium;
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+    width: 25%;
+    float: left
+    
+}
+
+aside {
+    background-color: lightcoral;
+    color: black;
+    font-size: medium;
+    font-family: font-family: 'Sevillana', cursive;
+    border: 3px solid coral;
+    padding: 30px;
+    margin: 50px;
+    width: 25%;
+    float: right;
+}
+
+section {
+    background-color: aquamarine;
+    color:black;
+    font-size: large;
+    font-family: 'Sevillana', cursive;
+}
+
+footer {
+    border: 10px solid lightpink;
+    padding: 10px;
+    margin: 15 px;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+
+}

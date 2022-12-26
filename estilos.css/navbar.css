@@ -1,0 +1,8 @@
+--#{$prefix}navbar-color: {#a2825c};
+--#{$prefix}navbar-hover-color: {#88d3ab};
+--#{$prefix}navbar-disabled-color: #{f9ffad2};
+--#{$prefix}navbar-active-color: #{f5da7a};
+--#{$prefix}navbar-brand-color: #{ff985e};
+--#{$prefix}navbar-brand-hover-color: #{#88d3ab};
+--#{$prefix}navbar-toggler-border-color: {#88d3ab};
+--#{$prefix}navbar-toggler-icon-bg: #{escape-svg($navbar-dark-toggler-icon-bg)};
