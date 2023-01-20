@@ -1,0 +1,17 @@
+.contact-section {
+    display: flex;
+    height: fit-content;
+    position: relative;
+    top: 546px;
+    background-color: #FDF0D5;
+    margin: -16px;
+}
+
+.love-section {
+    text-align: center;
+    font-family: 'Robota Mono', monospace;
+    position: relative;
+    left: 504px;
+    margin: 40px;
+
+}

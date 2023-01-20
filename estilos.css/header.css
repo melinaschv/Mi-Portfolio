@@ -1,0 +1,65 @@
+/* PRESENTATION GENERALS */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+}
+
+/* END PRESENTATION GENERALS */
+
+
+/*IMAGE STYLES*/
+
+.figure-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 40%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.presentation-image {
+    flex-basis: 30%;
+}
+
+/* END IMAGE STYLES */
+/*PRESENTATION TEXT*/
+
+.presentation-section { 
+    flex-basis: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+}
+
+.presentation-title {
+    margin: 17%;
+    padding: 6%;
+    align-self: center;
+    color: #48284c;
+    font-size: 300%;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: -53%;
+}
+
+.presentation-author {
+    margin: 47%;
+    padding: 0%;
+    border: 0%;
+    align-self: center;
+    color: #4a1552;
+    font-size: 150%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.presentation-sentence {
+    margin: -46%;
+    padding: 0;
+    align-self: center;
+    color: #20112a;
+    font-size: 100%;
+    font-family: 'Roboto Mono', monospace;
+}

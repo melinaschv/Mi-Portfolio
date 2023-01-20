@@ -1,0 +1,45 @@
+/* NAVIGATION BAR GENERALS  */
+
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #FDF0D5;
+    z-index: 9999;
+}
+
+/* END NAVIGATION BAR GENERALS */
+
+
+
+/* GENERAL LIST (UL) */
+
+.navigation-links,
+.dropdown-links {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+/* END GENERAL LIST */
+
+/* LIST ITEM */
+
+.nav-link>a,
+.nav-last-link>a,
+.dropdown-link>a,
+.dropdown-last-link>a {
+    position: relative;
+    margin: auto 0.2em;
+    padding: 0.7em 7em;
+    position: relative;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Robota Mono', monospace;
+}
+

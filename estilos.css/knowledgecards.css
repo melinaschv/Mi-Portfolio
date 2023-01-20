@@ -1,0 +1,100 @@
+/*OVERALL KNOWLEDGE CARDS*/
+.knowledge-html {
+        display: flex;
+        text-align: center;
+        position: relative;
+        top: 523px;
+        background-color: #9F86C0;
+        width: 100%;
+        margin: -7px;
+        border: 30px;
+        padding: 30px;       
+}
+
+
+    
+/*END KNOWLEDGE GENERALS*/
+
+/*TITLE AND DESCRIPTION*/
+.knowledge-title,
+.knowledge-description {
+    color: #240046;
+    text-align: center;
+    font-family: 'Robota Mono', monospace;    
+}
+
+#parrafo1,
+#parrafo2,
+#parrafo3,
+#parrafo4 {
+    font-family: 'Robota Mono', monospace;
+    text-align: center;
+}
+
+
+/*TITLE AND DESCRIPTION END*/
+
+/*EACH AND EVERY CARD*/
+.cards-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 223px 223px 223px 223px;
+    grid-gap: 41px;
+    position: relative;
+    left: 50px;
+
+}
+
+
+#card1 {
+        display: grid;
+        background: #CE5937;
+        background: -moz-linear-gradient(-45deg, #CE5937 0%, #FFD166 50%, #EF476F 100%);
+        background: -webkit-linear-gradient(-45deg, #CE5937 0%, #FFD166 50%, #EF476F 100%);
+        background: linear-gradient(135deg, #CE5937 0%, #FFD166 50%, #EF476F 100%);
+        grid-column: 1;
+        grid-row: 1;
+        overflow-y: scroll;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(255,209,102,0.93); 
+        box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(255,209,102,0.93);
+}
+        
+
+#card2 {
+        display: grid;
+        background: #B5179E;
+        background: -moz-linear-gradient(-45deg, #B5179E 0%, #4CC9F0 50%, #B76D4A 100%);
+        background: -webkit-linear-gradient(-45deg, #B5179E 0%, #4CC9F0 50%, #B76D4A 100%);
+        background: linear-gradient(135deg, #B5179E 0%, #4CC9F0 50%, #B76D4A 100%);
+        grid-column: 2;
+        overflow-y: scroll;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(181,106,164,0.93); 
+        box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(181,106,164,0.93);
+}
+
+
+#card3 {
+        display: grid;
+        background: #06D6A0;
+        background: -moz-linear-gradient(-45deg, #06D6A0 0%, #FFD166 50%, #ef476f 100%);
+        background: -webkit-linear-gradient(-45deg, #06D6A0 0%, #FFD166 50%, #ef476f 100%);
+        background: linear-gradient(135deg, #06D6A0 0%, #FFD166 50%, #ef476f 100%);
+        grid-column: 3;   
+        overflow-y: scroll;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(151,214,195,0.93); 
+        box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(151,214,195,0.93);
+}
+
+
+#card4 {
+        display: grid;
+        background: #FEE440;
+        background: -moz-linear-gradient(45deg, #FEE440 0%, #FF5400 50%, #6A4C93 100%);
+        background: -webkit-linear-gradient(45deg, #FEE440 0%, #FF5400 50%, #6A4C93 100%);
+        background: linear-gradient(45deg, #FEE440 0%, #FF5400 50%, #6A4C93 100%);
+        grid-column: 4;
+        overflow-y: scroll;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(255,167,111,0.93); 
+        box-shadow: 0px 10px 13px -7px #000000, -15px 5px 0px 5px rgba(255,167,111,0.93);
+}
+
